@@ -1,0 +1,63 @@
+#header{
+    width: 1200px;
+    height: 100px;
+    background-color: yellowgreen;
+}
+
+#header ul{
+    float: left;
+    margin-top: 30px;
+    margin-left: 70px;
+}
+
+
+
+#header ul li{
+    display: inline;
+    margin-right: 20px;
+}
+
+#header ul li button{
+    width: 80px;
+    height: 40px;
+    background-color: palevioletred;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+}
+
+#header ul li button:hover{
+    background-color: red;
+}
+
+.search{
+    float: right;
+}
+
+.search input{
+    float: left;
+    width: 500px;
+    margin: 30px 30px 0 0;
+    height: 40px;
+    background-color: bisque;
+    border: none;
+    font-size: 30px;
+    padding-left: 10px;
+}
+
+.search button{
+    float: right;
+    margin: 30px 100px 0 0;
+    width: 100px;
+    height: 40px;
+    background-color: brown;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+}
+
+#header ul li button.active{
+    background-color: blueviolet;
+}

@@ -1,0 +1,11 @@
+#dog{
+    width: 1200px;
+    height: 500px;
+    background-color: beige;
+}
+
+#dog img{
+    width: 600px;
+    height: 400px;
+    margin: 50px 0 0 300px; 
+}
